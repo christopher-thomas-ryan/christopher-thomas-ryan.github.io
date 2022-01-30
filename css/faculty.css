@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* DEFINITIONS: Faculty CSS Style Sheet for Index Page
+ */
+
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #818181;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 20px;
+	
+}
+
+ol, li{
+	list-style-type: decimal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;
+	margin-bottom: 0.6em;
+	padding-right: 10px;
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.6em;
+	color: #FFF;
+	background-color: #333;
+	padding: 3px;
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #730D0F;
+}
+
+h2 a {
+	color: #730D0F;
+}
+
+h3 {
+	font-size: 1.2em;
+	color: #730D0F;
+	font-weight: bold;
+}
+
+h4, h5, h6 {
+	color: #730D0F;
+	font-weight: bold;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color: #009;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #009;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	color: #009;
+	background-color: #999;
+	text-decoration: none;
+}
+
+table {
+	font-style: italic;
+	/* [disabled]text-align: center; */
+	/* [disabled]margin: 0px; */
+	/* [disabled]padding: 0px; */
+	border-collapse: collapse;
+	/* [disabled]left: auto; */
+	/* [disabled]right: auto; */
+}
+
+
+/***********************/
+/* CONTENT PAGE STYLES */
+/***********************/
+
+#wrapper {
+	width: 900px;
+	background-color: #4A4A4B;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header, #footer, #footer a {
+	color: #FFF;
+}
+
+#header {
+	padding: 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+#header p {
+	margin-bottom: 0.2em;
+}
+
+#navigation {
+	width: 190px;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 0px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation ul a, #navigation ul ul a, #navigation ul ul ul a  {
+	color: #FFF;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+#navigation ul a {
+	border: 2px solid #46090A;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#navigation ul ul a  {
+	border: 2px solid #333;
+	margin-left: 18px;
+	margin-top: 10px;
+	font-size: .95em;
+}
+
+#navigation ul ul ul a  {
+	border: 2px solid #333;
+	margin-left: 30px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 0.85em;
+}
+
+#navigation ul a:hover, #navigation ul ul a:hover, #navigation ul ul ul a:hover {
+	background-image: url(../images/link-hover.png);
+}
+
+#content {
+	width: 680px;
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFF;
+}
+#content h1 {
+	text-align: center;
+}
+
+#content ul {
+	list-style-type: none;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#content ul li {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+#content ul ul li{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-style: italic;
+}
+
+#imgbio {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+#footer {
+	clear: both;	
+	text-align: center;
+	padding: 5px;
+	font-size: 0.9em;
+}
+a.topics {
+	color: #730D0F;
+	font-size: 1.4em;
+}
+
+
+/****************/
+/* CLASS STYLES */
+/****************/
+
+.center {
+	text-align: center;
+	padding: 5px;
+}
+
+.currentpage  {
+	background-color: #730D0F;
+}
+
+.educationaluse {
+	color: #FFF;
+}
+
+.educationaluse {	
+	background-color: #333;
+	padding: 3px;
+}
+
+.font05em {
+	color: #FFF;
+	font-size: .5em;
+	text-decoration: none;
+}
+
+.font2em {
+	font-size: 2em;
+}
+
+.indent {
+	margin-left: 25px;
+}
+
+.maroon {
+	font-weight: bold;
+	color: #730D0F;
+}
+
+.notcurrentpage {
+	background-image: url(../images/link-background.png);
+}
+
+.tablechronology {
+	font-size: 0.85em;
+}
+
+/* float/clear classes */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+
+.right {
+	float: right;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+
+.left {
+	float: left;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.bio {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}

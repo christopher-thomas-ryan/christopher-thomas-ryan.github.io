@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* DEFINITIONS: Faculty CSS Style Sheet for index pages
+ */
+
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #818181;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;
+	margin-bottom: 0.6em;
+	padding-right: 10px;
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.6em;
+	color: #FFF;
+	background-color: #333;
+	padding: 3px;
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #730D0F;
+}
+
+h2 a {
+	color: #730D0F;
+}
+
+h3 {
+	font-size: 1.2em;
+	color: #730D0F;
+	font-weight: bold;
+}
+
+h4, h5, h6 {
+	color: #730D0F;
+	font-weight: bold;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color: #009;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #009;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	color: #00F;
+	background-color: #999;
+	text-decoration: none;
+}
+
+table {
+	font-style: italic;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+td {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-left-color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+
+td a {
+	color: #730D0F;
+}
+
+/*********************/
+/* INDEX PAGE STYLES */
+/*********************/
+
+#indexpagewrapper, #indexpagenew a, #indexpagefooter, #indexpagefooter a {
+	color: #FFF;
+}
+
+#indexpagewrapper {
+	background-image: url(../images/indexbackground.png);
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#indexpagephoto  {
+	float: left;
+	height: 300px;
+	margin-top: 180px;
+	margin-left: 220px;
+	position: absolute;
+}
+
+#indexpageprofessor {
+	font-size: 4em;
+	margin-left: 210px;
+	margin-top: 65px;
+	width: 800px;
+	float: left;
+	clear: both;
+	line-height: 45px;
+	margin-right: 210px;
+}
+#indexpagenavigation {
+	margin-right: 175px;
+	margin-bottom: 75px;
+	font-size: 1.8em;
+	clear: left;
+	float: right;
+	width: 300px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: right;
+	margin-top: 25px;
+}
+
+#indexpagenavigation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#indexpagenavigation ul li {
+	padding: 5px;
+}
+#indexpagenavigation a:hover, a:active, a:focus {
+	background-color: #666;
+	text-decoration: none;
+}
+#indexpagenavigation ul a {
+	color: #FFF;
+	display: block;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-bottom: 3px;
+}
+
+#indexpagenavigation ul li a {
+	color: #FFF;
+	text-decoration: none;
+	line-height: 36px;
+	list-style-type: none;
+	background-color: #730D0F;
+	border: 1px solid #999999;
+}
+
+#indexpagenavigation a, a:hover, a:active, a:focus, a:visited {
+	color:#CCCCCC;
+}
+
+#indexpagefooter {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 0.9em;
+	padding: 5px;
+	clear: both;
+}
+
+
+/****************/
+/* CLASS STYLES */
+/****************/
+
+/* float/clear classes */
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+
+.right {
+	float: right;
+}
+
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+
+.left {
+	float: left;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.hangingindent {
+    padding-left: 75px ;
+    text-indent: -75px ;
+}
+.shadow {
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+.font05em {
+	font-size: .5em;
+	text-decoration: none;
+}
